@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    align-items: center;   
+    list-style-type: none;
+    gap: 8px;
+}
+
+.header-content {
+
+}
+.container-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px;
+}
+img {
+   width: auto;
+   height: 200px;
+}
