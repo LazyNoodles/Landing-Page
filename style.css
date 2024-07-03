@@ -10,8 +10,29 @@ ul {
     gap: 8px;
 }
 
-.header-content {
+li {
+    font-size: 18px;
+}
 
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 25px;
+}
+
+.header-content {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 .container-content {
     display: flex;
@@ -19,7 +40,18 @@ ul {
     justify-content: space-between;
     margin: 8px;
 }
+
 img {
-   width: auto;
    height: 200px;
+   border-radius: 25px;
+}
+
+.header {
+    background-color: #1F2937;
+    padding: 0 70px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
