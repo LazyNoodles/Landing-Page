@@ -84,3 +84,24 @@ img {
     max-width: 200px;
     font-size: 18px;
 }
+
+.container-quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 50px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+.credit {
+    margin-left: 60%;
+    font-weight: bold;
+}
