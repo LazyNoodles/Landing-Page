@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+    height: 100%;
+}
 .container {
     display: flex;
     align-items: center;
@@ -17,11 +21,15 @@ li {
 a {
     text-decoration: none;
     color: #E5E7EB;
+    display: flex;
 }
 
 button {
     background-color: #3882F6;
     border-radius: 25px;
+    width: 100px;
+    height: 30px;
+    color: #E5E7EB;
 }
 
 .header-content {
@@ -44,6 +52,8 @@ button {
 img {
    height: 200px;
    border-radius: 25px;
+   width: 100%;
+   object-fit: cover;
 }
 
 .header {
@@ -54,4 +64,23 @@ img {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+}
+.title {
+    font-size: 38px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container-info {
+    display: flex;
+    gap: 20px;
+    padding: 18px;
+    justify-content: center;
+}
+
+.info {
+    max-width: 200px;
+    font-size: 18px;
 }
